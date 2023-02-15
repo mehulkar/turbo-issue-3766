@@ -5,6 +5,7 @@
   "author": "Mehul Kar",
   "workspaces": [
     "packages/*",
-    "packages/!(excluded-package)"
-  ]
+    "!packages/excluded-package"
+  ],
+  "packageManager": "yarn@3.3.1"
 }
