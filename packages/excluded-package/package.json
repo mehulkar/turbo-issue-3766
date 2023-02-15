@@ -1,0 +1,6 @@
+{
+    "name": "excluded-package",
+    "scripts": {
+        "build": "echo 'building excluded-package'"
+    }
+}

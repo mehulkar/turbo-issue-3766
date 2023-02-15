@@ -1,0 +1,10 @@
+{
+  "name": "turbo-issue-3766",
+  "version": "1.0.0",
+  "description": "Excluded packages",
+  "author": "Mehul Kar",
+  "workspaces": [
+    "packages/*",
+    "packages/!(excluded-package)"
+  ]
+}
